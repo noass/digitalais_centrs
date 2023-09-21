@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="679.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Window2Controller">
+   <children>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="120.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="120.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="120.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="120.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="282.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="381.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="474.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="565.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="742.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="742.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="742.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="76.0" layoutX="742.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pc_image.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="reservation_button" layoutX="392.0" layoutY="558.0" mnemonicParsing="false" onAction="#backToReservation" text="REZERVĒT" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <Circle fx:id="dators1" fill="WHITE" layoutX="315.0" layoutY="152.0" onMouseClicked="#dators1Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="dators2" fill="WHITE" layoutX="414.0" layoutY="152.0" onMouseClicked="#dators2Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="dators3" fill="WHITE" layoutX="507.0" layoutY="152.0" onMouseClicked="#dators3Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="dators4" fill="WHITE" layoutX="598.0" layoutY="152.0" onMouseClicked="#dators4Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="310.0" layoutY="178.0" text="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="409.0" layoutY="178.0" text="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="178.0" text="3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="593.0" layoutY="178.0" text="4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators5" fill="WHITE" layoutX="235.0" layoutY="208.0" onMouseClicked="#dators5Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="230.0" layoutY="234.0" text="5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators6" fill="WHITE" layoutX="235.0" layoutY="285.0" onMouseClicked="#dators6Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="230.0" layoutY="311.0" text="6">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators7" fill="WHITE" layoutX="235.0" layoutY="375.0" onMouseClicked="#dators7Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="230.0" layoutY="401.0" text="7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators8" fill="WHITE" layoutX="235.0" layoutY="468.0" onMouseClicked="#dators8Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="230.0" layoutY="494.0" text="8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators9" fill="WHITE" layoutX="698.0" layoutY="201.0" onMouseClicked="#dators9Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="693.0" layoutY="227.0" text="9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators10" fill="WHITE" layoutX="698.0" layoutY="278.0" onMouseClicked="#dators10Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="688.0" layoutY="311.0" text="10">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators11" fill="WHITE" layoutX="698.0" layoutY="368.0" onMouseClicked="#dators11Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="688.0" layoutY="400.0" text="11">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="dators12" fill="WHITE" layoutX="698.0" layoutY="461.0" onMouseClicked="#dators12Clicked" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="688.0" layoutY="494.0" text="12">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
